@@ -1,0 +1,33 @@
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 100vw;
+    margin-top: 20px;
+}
+
+.banner div {
+    width: 47%;
+    height: 300px;
+}
+
+.banner div img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:920px) {
+    .banner {
+      
+       flex-direction: column;
+        width: 100vw;
+    }
+    
+    .banner div {
+        width: 98%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    
+    
+}
